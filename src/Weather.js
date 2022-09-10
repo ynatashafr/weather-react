@@ -60,7 +60,7 @@ export default function Weather() {
         <div className="col"></div>
       </div>
       <div className="github-url">
-        <a href="https://github.com/ynatashafr/My-weather-app">
+        <a href="https://github.com/ynatashafr/weather-react">
           Open-source code{" "}
         </a>
         By Natasha Figueroa
