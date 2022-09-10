@@ -1,38 +1,90 @@
-.App {
+h2 {
+  color: #020438;
+  font-family: "Lora", serif;
+  font-size: 500px bold;
+}
+
+.container-border {
+  border: 4px solid #2772db;
+}
+
+button {
+  color: #2772db;
+}
+
+body {
+  padding: 100px 0 100px;
+}
+
+h1 {
+  position: static;
+  text-align: right;
+  font-size: 15px !important;
+}
+
+h3 {
+  color: #020438;
+  font-family: "Lora", serif;
+  text-align: center;
+  display: inline-block;
+}
+
+#icon {
+  text-align: center;
+  display: inline-block;
+}
+
+.temperature {
+  color: #020438;
+  font-family: "Lora", serif;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.day {
+  font-size: 19px;
+  color: #020438;
+  font-family: "Lora", serif;
+  text-align: center;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.weather-forecast {
+  margin-bottom: 20px;
+  margin-top: 15px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-forecast-temperature {
+  font-size: 13px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.top-div {
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.github-url {
+  text-align: center;
+}
+
+.temperature .active {
+  color: #020438;
+  cursor: default;
+}
+
+.temperature .active:hover {
+  text-decoration: none;
 }
