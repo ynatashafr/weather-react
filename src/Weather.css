@@ -1,0 +1,90 @@
+h2 {
+  color: #020438;
+  font-family: "Lora", serif;
+  font-size: 500px bold;
+}
+
+.container-border {
+  border: 4px solid #2772db;
+}
+
+button {
+  color: #2772db;
+}
+
+body {
+  padding: 100px 0 100px;
+}
+
+h1 {
+  position: static;
+  text-align: right;
+  font-size: 15px !important;
+}
+
+h3 {
+  color: #020438;
+  font-family: "Lora", serif;
+  text-align: center;
+  display: inline-block;
+}
+
+#icon {
+  text-align: center;
+  display: inline-block;
+}
+
+.temperature {
+  color: #020438;
+  font-family: "Lora", serif;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.day {
+  font-size: 19px;
+  color: #020438;
+  font-family: "Lora", serif;
+  text-align: center;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.weather-forecast {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.top-div {
+  margin-top: 20px;
+}
+
+body {
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.github-url {
+  text-align: center;
+}
+
+.temperature .active {
+  color: #020438;
+  cursor: default;
+}
+
+.temperature .active:hover {
+  text-decoration: none;
+}
