@@ -9,7 +9,6 @@ export default function Weather() {
         <div className="col-6  container-border">
           <div className="col top-div">
             <h1>10/09/2022</h1>
-            <h2>City</h2>
 
             <form className="form-inline">
               <div className="form-group mx-sm-3 mb-2">
@@ -18,12 +17,13 @@ export default function Weather() {
                   className="form-control rounded-pill"
                   aria-describedby="cityHelp"
                   placeholder="Enter City"
+                  autoFocus="on"
                 />
               </div>
               <button
                 type="submit"
                 Value="Search"
-                className="btn btn-primary mb-2 Small shadow"
+                className="btn mb-2 Small shadow"
               >
                 Search
               </button>
@@ -31,12 +31,15 @@ export default function Weather() {
           </div>
           <div className="col row">
             <div className="col day">
-              <img src="" alt="Clear" />
+              <img
+                src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                alt="Clear"
+              />
               <br />
-              <span className="temperature"></span>
               <strong>New York</strong>
               <br />
-              20C°
+              <span className="temperature">20</span>
+              <span className="units">°C</span>
               <br />
             </div>
             <div className="col">
