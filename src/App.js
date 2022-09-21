@@ -5,7 +5,7 @@ import React from "react";
 function App() {
   return (
     <div classNameName="App">
-      <Weather />
+      <Weather defaultCity="Valencia" />
     </div>
   );
 }
