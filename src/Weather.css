@@ -13,24 +13,23 @@ body {
   background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 
-h1 {
-  position: static;
-  text-align: right;
-  font-size: 15px !important;
-}
-
 h3 {
   color: #020438;
   font-family: "Lora", serif;
   text-align: center;
   display: inline-block;
 }
+h2 {
+  font-family: "Lora", serif;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  padding: 0 0 0 0;
+}
 
 .day {
   font-family: "Lora", serif;
   text-align: center;
-  display: inline-block;
-  font-size: 30px;
 }
 
 ul {
