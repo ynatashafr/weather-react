@@ -67,11 +67,16 @@ a {
   font-weight: bold;
   text-align: center;
   display: inline-block;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .units {
   font-size: 16px;
   position: relative;
   top: -19px;
+}
+
+img {
+  width: 40%;
+  float: left;
 }

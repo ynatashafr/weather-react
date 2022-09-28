@@ -4,8 +4,8 @@ import React from "react";
 
 function App() {
   return (
-    <div classNameName="App">
-      <Weather defaultCity="Valencia" />
+    <div className="App">
+      <Weather defaultCity="Caracas" />
     </div>
   );
 }
