@@ -67,7 +67,7 @@ a {
   font-weight: bold;
   text-align: center;
   display: inline-block;
-  font-size: 45px;
+  font-size: 50px;
 }
 
 .units {
@@ -76,7 +76,7 @@ a {
   top: -19px;
 }
 
-img {
-  width: 40%;
-  float: left;
+.Weather canvas {
+  margin-top: 9px;
+  margin-left: 28px;
 }
