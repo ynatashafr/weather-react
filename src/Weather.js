@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import WeatherInfo from "./Weatherinfo";
+import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
 import axios from "axios";
 
@@ -9,6 +10,7 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed,
@@ -66,9 +68,16 @@ export default function Weather(props) {
             <div className="col row">
               <div className="col day">
                 <WeatherInfo data={weatherData} />
+                <WeatherForecast coordinates={weatherData.coordinates} />
               </div>
             </div>
           </div>
+        </div>
+        <div className="github-url">
+          <a href="https://github.com/ynatashafr/weather-react">
+            Open-source code{" "}
+          </a>
+          By Natasha Figueroa
         </div>
       </div>
     );

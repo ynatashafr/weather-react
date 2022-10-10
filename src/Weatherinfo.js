@@ -2,6 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import "./Weather.css";
 
 export default function WeatherInfo(props) {
   return (
@@ -13,21 +14,21 @@ export default function WeatherInfo(props) {
             <FormattedDate date={props.data.date} />
           </h2>
           <br />
-          <div className="float-left">
-            <WeatherIcon code={props.data.icon} />
+          <div className="icon float-left">
+            <WeatherIcon code={props.data.icon} size={54} />
           </div>
           <WeatherTemperature celsius={props.data.temperature} />
           <br />
         </div>
-        <div className="col">
+        <div className="details col">
           <ul>
-            <li>Humidity</li>
-            <li>Visivility</li>
-            <li>Wind</li>
-            <li>Description</li>
+            <li>Humidity:</li>
+            <li>Visivility:</li>
+            <li>Wind:</li>
+            <li>Description:</li>
           </ul>
         </div>
-        <div className="col">
+        <div className="detailsResponse col font-weight-bold">
           <ul>
             <li>{props.data.humidity}%</li>
             <li>{props.data.visibility}</li>
@@ -35,16 +36,6 @@ export default function WeatherInfo(props) {
             <li>{props.data.description}</li>
           </ul>
         </div>
-      </div>
-      <div className="weather-forecast"></div>
-
-      <div className="col"></div>
-
-      <div className="github-url">
-        <a href="https://github.com/ynatashafr/weather-react">
-          Open-source code{" "}
-        </a>
-        By Natasha Figueroa
       </div>
     </div>
   );
